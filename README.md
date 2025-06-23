@@ -15,7 +15,7 @@ A sleek and simple chatbot built with **Streamlit** that uses the **OpenRouter A
 
 ---
 
-## 🚀 Demo App
+## Demo App
 
 You can deploy and test this app locally
 
@@ -23,7 +23,7 @@ You can deploy and test this app locally
 
 ---
 
-## 🔐 Get an OpenRouter API Key
+## Get an OpenRouter API Key
 
 You can sign up and get a free API key from [OpenRouter](https://openrouter.ai/):
 
@@ -34,4 +34,36 @@ You can sign up and get a free API key from [OpenRouter](https://openrouter.ai/)
 
 ```toml
 openrouter_key = "your-api-key-here"
+```
+
+## How to Run the App
+1. Clone this repository
+```
+git clone https://github.com/yourusername/ai-chatbot-streamlit.git
+cd ai-chatbot-streamlit
+```
+2. Set up virtual environment (optional but recommended)
+````
+python -m venv env
+source env/bin/activate  # On Windows: env\Scripts\activate
+```
+3. Install dependencies
+```
+pip install -r requirements.txt
+```
+4. Add your OpenRouter key
+```
+Create a file at .streamlit/secrets.toml with your API key as described earlier.
+```
+5. Run the app
+```
+streamlit run app.py
+```
+
+## Project Structure
+```
+├── app.py                  # Main Streamlit chatbot app
+├── requirements.txt        # Python dependencies
+└── .streamlit
+    └── secrets.toml        # Your API key (DO NOT COMMIT)
 ```
