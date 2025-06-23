@@ -32,7 +32,7 @@ You can sign up and get a free API key from [OpenRouter](https://openrouter.ai/)
 3. Go to your dashboard and copy the API key
 4. Add the key into a file named `.streamlit/secrets.toml` in your project directory like this:
 
-```toml
+```
 openrouter_key = "your-api-key-here"
 ```
 
@@ -43,7 +43,7 @@ git clone https://github.com/yourusername/ai-chatbot-streamlit.git
 cd ai-chatbot-streamlit
 ```
 2. Set up virtual environment (optional but recommended)
-````
+```
 python -m venv env
 source env/bin/activate  # On Windows: env\Scripts\activate
 ```
