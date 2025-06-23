@@ -39,8 +39,7 @@ openrouter_key = "your-api-key-here"
 ## How to Run the App
 1. Clone this repository
 ```
-git clone https://github.com/yourusername/ai-chatbot-streamlit.git
-cd ai-chatbot-streamlit
+git clone https://github.com/duaribusatu/fun_project_2_REAID.git
 ```
 2. Set up virtual environment (optional but recommended)
 ```
